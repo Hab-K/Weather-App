@@ -1,0 +1,83 @@
+* {
+    margin: 0px 0px;
+}
+.whole {
+    width: 550px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    border: solid 1px none;
+    border-radius: 20px;;
+    padding: 40px;
+    margin: 30px auto;
+    background-color: hsla(0, 27%, 94%, 0);
+    box-shadow: 5px 5px 25px 5px hsla(162, 63%, 51%, 0.904);
+}
+.form input, .form button{
+    font-size: 1.2em;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: solid 2px rgb(0, 255, 229);
+}
+button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+button:active {
+    cursor: pointer;
+    background-color: rgb(0, 255, 98);
+    font-size: 1.3em;
+}
+.detail {
+    margin-top: 30px;
+    background: linear-gradient(190deg , rgb(23, 205, 23), rgb(44, 44, 230));
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    align-items: center;
+    column-gap: 1px;
+    padding: 40px;
+    border-radius: 20px;
+}
+p {
+    font-size: 2.5em;
+}
+#city {
+ color: blue;
+ font-size: 3.5em;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+.err {
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 3em;
+}
+.humid {
+    margin: 10px auto;
+    font-weight: 400;
+    font-size: 2em;
+}
+.tem {
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 3em;
+}
+.emoji {
+    font-size: 7em;
+    margin: -10px auto;
+    color: yellow;
+
+}
+.list {
+    font-size: 1.5em;
+    color: rgb(43, 211, 226);
+}
+.describe {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
